@@ -1,0 +1,1450 @@
+body {
+    margin: 0px;
+    font-size: 13px;
+    width: 100%;
+}
+  
+section {
+    margin: 0 auto;
+}
+
+.body-menu {
+    width: calc(100% - 40%);
+}
+
+section.header {
+    width: 100%;
+    height: 148px;
+}
+
+.header .header-nav {
+    background-color: #09425A;
+}
+
+.upper-menu {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+    padding: 0px 176px
+}
+
+.upper-menu .right-text {
+    display: block;
+}
+
+.upper-menu .right-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    line-height: 100px;
+    text-align: left;
+    border: 0;
+    background: rgba(240, 244, 245, 1);
+    padding: 0 10px;
+}
+
+.left-text .logo img {
+    width: 125px;
+    padding-top: 12px;
+    border-radius: 0px;
+    float: left;
+}
+
+.upper-menu .left-text {
+    grid-template-columns: auto auto auto;
+    display: grid;
+    max-width: 30%;
+}
+
+.upper-menu .left-text .logo h4 {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.upper-menu .left-text .logo h4:first-child {
+    margin-bottom: 2px;
+}
+
+.upper-menu .left-text .logo h4:last-child {
+    margin-top: 2px;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-content .italia-img img {
+    display: inline-block;
+}
+
+.right-text .dropdown-content a.italiano{
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+}
+
+.right-text .dropdown-content img {
+    margin-right: 7px;
+    margin-left: 10px
+}
+
+button.vector-button {
+    background-color: white;
+    border: 0px;
+}
+
+i.fa.fa-arrow-circle-o-left {
+    font-size: 40px;
+    color: rgba(9, 66, 90, 1);
+    margin-left: 170px;
+    margin-top: 60px;
+}
+
+.menu .title-body {
+    margin: 50px 0;
+}
+
+.menu .title-body .title-store {
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(9, 66, 90, 1);
+}
+
+.menu .title-body p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(9, 66, 90, 1);
+}
+
+.body-menu .title-menu {
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(9, 66, 90, 1);
+    margin-top: 74px;
+    margin-bottom: 36px
+}
+
+.menu-01 .parking-location {
+    height: 120px;
+    width: 100%;
+    left: 1px;
+    top: 91px;
+    border-radius: 5px;
+    background: rgba(208, 216, 218, 1);
+}
+
+.menu-01 .parking-location .list-name {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between
+}
+
+.menu-01 .parking-location .list-name a, li {
+    color: rgba(9, 66, 90, 1);
+    text-decoration: none;
+    list-style-type: none;
+    size: 36px;
+}
+
+.menu-01 .parking-location .list-name .left .parginggo {
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+}
+
+li.right {
+    padding-top: 20px;
+    text-underline-position: under;
+    size: 18px;
+    color: rgba(9, 66, 90, 1);
+    text-decoration: underline;
+}
+
+.list-name .right a.modifica {
+    font-size: 18px;
+}
+
+i.fa.fa-map-marker {
+    padding-right: 23px;
+    font-size: 40px;
+    color: #09425A;
+}
+
+.menu-02 .group-59 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-02 .group-59 .rectange1 , .rectange2 {
+    height: 100px;
+    width: 250px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    background: rgba(208, 216, 218, 1);
+}
+
+.menu-02 .group-59 .rectange2 {
+    background: rgba(15, 183, 182, 1);
+    margin-left: 27px;
+}
+
+.menu-02 .group-59 .text-59 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 28px
+}
+
+.menu-02 .group-59 .price-quantity {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: calc(100% - 4px);
+}
+
+.menu-02 .group-59 .price-quantity .quantity {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-02 .group-59 .price-quantity .price {
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+}
+
+.menu-02 .group-59 .price-quantity .quantity .quantity-number {
+    border: 1px solid rgba(255, 255, 255, 1);
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.menu-02 .group-59 .price-quantity .quantity .qta {
+    padding-top: 8px;
+    padding-right: 5px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu-02 .group-59 .price-quantity .quantity .quantity-number:before {
+    content: "";
+    padding: 3px;
+    display: inline-block;
+    left: 40px;
+    top: 10px;
+    right: 20px;
+    transform: rotate(45deg);
+    position: relative;
+    border-bottom: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+}
+
+.menu-03 .date , .orari {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(9, 66, 90, 1);
+}
+
+.date button.lunedi27 {
+    height: 25px;
+    width: 86px;
+    left: 447px;
+    top: 1353px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0FB7B6;
+    color: rgba(15, 183, 182, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    background-color: white;
+}
+
+.date button.active {
+    background-color: rgba(15, 183, 182, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.date .button-date .disable {
+    color: rgba(150, 150, 150, 1);
+    border: 0;
+    background-color: rgba(208, 216, 218, 1);
+}
+
+button.time {
+    height: 25px;
+    width: 86px;
+    left: 447px;
+    top: 1353px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #0FB7B6;
+    color: rgba(15, 183, 182, 1);
+    font-family: Poppins;
+    font-size: 14px;
+    background-color: white;
+}
+
+button.active {
+    background-color: rgba(15, 183, 182, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+button.disable {
+    color: rgba(150, 150, 150, 1);
+    border: 0;
+    background-color: rgba(208, 216, 218, 1);
+}
+
+.form-group {
+    display: inline-block;
+}
+
+.form-group .col-md {
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+
+.form-group .col-md label {
+    display: block;
+}
+
+.form-group .col-md input {
+    width: calc(100% - 45px);
+    height: 30px;
+    margin-top: 16px;
+}
+
+.form-group .col-md label {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(9, 66, 90, 1);
+}
+
+.form-group .col-md label.dropdown-cel:before {
+    content: "";
+    padding: 3px;
+    display: inline-block;
+    left: 46px;
+    top: 42px;
+    transform: rotate(45deg);
+    position: relative;
+    border-bottom: 1px solid rgba(9, 66, 90, 1);
+    border-right: 1px solid rgba(9, 66, 90, 1);
+}
+
+.form-group .col-md input {
+    height: 37px;
+    left: 1px;
+    top: 52px;
+    border-radius: 3px;
+    border: 1px solid rgba(15, 183, 182, 1)
+}
+
+.form-group .col-md .email-validation {
+    width: calc(100% - 45px);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.form-group .col-md .cel {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-group .col-md .cel input.cellulare  {
+    width: calc(100% - 78% );
+    max-width: 100%;
+    margin-right: 5px
+}
+
+.form-group .col-md .cel .number-cellulare {
+    width: 100%;
+    margin-right: 43px;
+}
+
+.col-md-radio {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+
+.form-group .col-md-radio label {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(9, 66, 90, 1);
+}
+
+.form-group .col-md-radio .radio-form {
+    height: 37px;
+    margin-top: 16px;
+}
+
+.radio-form .checkcontainer {
+    font-family: Poppins;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.radio-form .checkcontainer input[name="gender"] {
+    width: 24px;
+    height: 24px;
+}
+
+.checkbox-form {
+    display: inline-block;
+}
+
+label.container {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #E5E5E5;
+}
+
+.container:hover input[type=checkbox] ~ .checkmark {
+    background-color: rgb(189, 189, 189);
+}
+
+.container input[type=checkbox]:checked ~ .checkmark {
+    background-color: rgba(15, 183, 182, 1);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input[type=checkbox]:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.avantibtn {
+    width: 200px;
+}
+
+.avantibtn button.avanti {
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    border: 0px;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(208, 216, 218, 1);
+    font-family: Poppins;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.menu-05 .bill {
+    color: rgba(9, 66, 90, 1);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.menu-05 .bill-form {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+button.agency-bill {
+    height: 80px;
+    width: 220px;
+    left: 0px;
+    top: 3px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(208, 216, 218, 1);
+    color: rgba(0, 154, 187, 1);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+button.agency-bill .fa-users {
+    padding: 0 35px;
+}
+
+button.private-bill .fa-user {
+    padding: 0 35px;
+}
+
+button.private-bill {
+    height: 80px;
+    width: 220px;
+    left: 0px;
+    top: 3px;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 8px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background-color: rgba(15, 183, 182, 1);
+}
+
+.menu-05 .credit-card {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.credit-card .radio-card {
+    margin-top: 12px;
+}
+
+.menu-05 .credit-card .card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.credit-card label[for=card] {
+    padding: 0px 80px 0 20px;
+}
+
+.credit-card input[type="radio"]{
+    margin: 0;
+}
+
+.credit-card .master-card, .visa-card {
+    margin-right: 25px;
+}
+
+.form-card {
+    display: inline-block;
+    background-color: rgba(240, 244, 245, 1);
+    padding: 30px;
+    margin-bottom: 55px;
+}
+
+.form-card .col-md-card {
+    float: left;
+    width: 100%;
+}
+
+.form-card .col-md-card .provinzia, .carta {
+    float: left;
+    width: 100%;
+    height: 37px;
+    border-radius: 3px;
+    border: 1px solid rgba(15, 183, 182, 1);
+}
+
+.col-md-card-center{
+    display: inline-block;
+    width: 100%;
+} 
+
+.col-md-card-center .left-form {
+    width: 50%;
+    float: left;
+}
+
+.col-md-card-center .left-form label[for=data] {
+    float: left;
+    display: inline-block;
+}
+
+.col-md-card-center .left-form .data-scandeza {
+    float: left;
+    width: calc(100% - 35px);
+    height: 37px;
+    border-radius: 3px;
+    border: 1px solid rgba(15, 183, 182, 1);
+    margin-bottom: 30px;
+}
+
+.col-md-card-center .right-form .cvc {
+    float: right;
+    width: 50%;
+    height: 37px;
+    border-radius: 3px;
+    border: 1px solid rgba(15, 183, 182, 1);
+    margin-bottom: 30px;
+}
+
+.form-card .col-md-card label, .col-md-card-center label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.form-card .col-md-card .provinzia {
+    margin-bottom: 30px;
+}
+
+.confirm-bill button.conferma {
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    border: 0px;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(22, 197, 179, 1);
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.footer {
+    background-color: rgba(9, 66, 90, 1); 
+    bottom: 0px;
+    position: relative;
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    height: auto;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    margin-left: 19px;
+}
+
+.footer-menu .list .logo img{
+    width: 125px;
+    padding-top: 12px;
+    border-radius: 0px;
+    float: left;
+    margin-bottom: 21px;
+}
+
+.footer-menu .list {
+    display: inline-block;
+    float: left;
+}
+
+.footer-menu  li, a{
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer-menu .list .name {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.footer-menu .list:last-child {
+    margin-left: 117px;
+    padding-left: 0;
+}
+
+.footer-menu .list .row-list {
+    display: flex;
+    justify-content: start;
+    float: left;
+    padding: 0px;
+}
+
+.footer-menu .list .row-list li a {
+    padding-right: 30px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.created-name p {
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+}
+
+.radio-pay .paycard {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 25px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 5px
+}
+
+.radio-pay .paycard input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.menu-05 .radio-pay.bottom {
+    margin-bottom: 35px;
+}
+
+.checkradio {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #0FB7B6;
+}
+
+.paycard:hover input ~ .checkradio {
+    border: 2px solid #0FB7B6;
+}
+
+.paycard input:checked ~ .checkradio {
+    background-color: rgba(15, 183, 182, 1);
+}
+
+.checkradio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.paycard input:checked ~ .checkradio:after {
+    display: block;
+}
+
+.paycard .checkradio:after {
+    top: 5px;
+    left: 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: white;
+}
+
+.menu-01 .parking-location .list-name .center {
+    display: none;
+}
+
+
+@media all and (max-width: 415px) {
+    
+    .body-menu {
+        width: 100%;
+    }
+
+    .header .header-nav {
+        width: 100%;
+    }
+    
+    .upper-menu {
+        width: 100%;
+        padding: 0;
+        justify-content: space-around;
+    }
+
+    .upper-menu .left-text {
+        display: inline-block;
+    }
+
+    .left-text .logo img {
+        width: 92px;
+        border-radius: 0px;
+        vertical-align: baseline;
+        float: left;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .upper-menu .right-text {
+        margin-top: 17px;
+        margin-bottom: 20px;
+        height: 24px;
+        width: 37px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        line-height: 100px;
+        text-align: left;
+        border: 0;
+        background-color: rgba(9, 66, 90, 1);
+    }
+
+    .right-text:before {
+        display: none;
+    }
+
+    .right-text .dropdown-content a.italiano {
+        display: none;
+    }
+
+    .right-text .dropdown-content img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: inline-block;
+        padding: 0;
+    }
+
+    i.fa.fa-arrow-circle-o-left {
+        margin-left: 70px;
+        margin-top: 25px;
+    }
+
+    .menu .title-body {
+        margin: 0;
+    }
+
+    .menu .title-body .title-store {
+        text-align: center;
+        font-family: Poppins;
+        font-size: 27px;
+        font-style: normal;
+        line-height: 41px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .menu .title-body p {
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 0 32px;
+    }
+
+    .body-menu .title-menu {
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding: 0 32px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .menu-01 .parking-location .list-name .center {
+        display: block;
+    }
+
+    .menu-01 .parking-location .list-name .left .parginggo {
+        font-size: 18px;
+    }
+
+    .menu-01 .parking-location .list-name {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    i.fa.fa-map-marker {
+        padding-right: 27px;
+        font-size: 32px;
+        color: #09425A;
+    }
+
+    i.fa.fa-clock-o {
+        padding-right: 21px;
+        font-size: 30px;
+        color: #09425A;
+        padding-top: 25px;
+    }
+
+    .menu-01 .parking-location {
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+    }
+   
+    .menu-02 .group-59 .text-59 {
+        padding-left: calc(1vw + 14px);
+    }
+
+    li.right {
+        padding-top: 40px;
+        text-underline-position: under;
+        color: rgba(9, 66, 90, 1);
+        float: right;
+        display: inline-block;
+        font-size: 14px;
+        margin-left: auto;
+    }
+
+    .menu-02 .group-59 {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-02 .group-59 .rectange1, .rectange2 {
+        height: 100px;
+        width: calc(100% - 60px);
+        left: 0px;
+        top: 0px;
+        border-radius: 5px;
+        background: rgba(208, 216, 218, 1);
+    }
+
+    .menu-02 .group-59 .rectange2 {
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    .menu-02 .group-59 .price-quantity {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        justify-content: space-around;
+    }
+
+    .menu-02 .group-59 .price-quantity .price {
+        color: rgba(255, 255, 255, 1);
+        font-size: 30px;
+        width: calc(100% - 164px);
+        padding: 0;
+    }
+
+    .menu-03 {
+        margin: 0;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .menu-03 .date .button-date, .button-orari{
+        text-align: center;
+        margin: 0;
+        display: inline-block;
+        padding: 0 30px;
+    }
+
+    .menu-03 .date .date, .orari .orari {
+        text-align: left;
+        padding-left: 30px;
+        margin-bottom: 13px;
+        font-size: 18px;
+    }
+
+    .date button.lunedi27 {
+        height: 35px;
+        width: calc(100% - 55%);
+        left: 447px;
+        top: 1353px;
+        border-radius: 3px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #0FB7B6;
+        color: rgba(15, 183, 182, 1);
+        font-family: Poppins;
+        font-size: 14px;
+        background-color: white;
+    }
+
+    button.time {
+        height: 35px;
+        width: calc(100% - 55%);
+        left: 447px;
+        top: 1353px;
+        border-radius: 3px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border: 2px solid #0FB7B6;
+        color: rgba(15, 183, 182, 1);
+        font-family: Poppins;
+        font-size: 14px;
+        background-color: white;
+    }
+
+    .date button.active {
+        background-color: rgba(15, 183, 182, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    button.active {
+        background-color: rgba(15, 183, 182, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    button.disable {
+        color: rgba(150, 150, 150, 1);
+        border: 0;
+        background-color: rgba(208, 216, 218, 1);
+    }
+
+    .menu-04 .form-group {
+        display: inline-block;
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .form-group .col-md {
+        width: 100%;
+    }
+
+    .form-group .col-md label {
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .form-group .col-md input {
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    .form-group .col-md .cel .number-cellulare {
+        margin-right: 0;
+    }
+
+    .form-group .col-md .cel input.cellulare {
+        width: calc(100% - 70% );
+        max-width: 100%;
+        margin-right: 1px;
+    }
+
+    .col-md-radio {
+        display: inline-block;
+        width: 50%;
+        float: left;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .form-group .col-md-radio label {
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(9, 66, 90, 1);
+        display: inline-block;
+        width: 100%;
+    }
+
+    .checkbox-form {
+        display: inline-block;
+        padding: 0 30px;
+    }
+
+    .radio-form .checkcontainer input[name="gender"] {
+        width: 18px;
+        height: 18px;
+    }
+
+    .avantibtn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .avantibtn button.avanti {
+        width: calc(100% - 60px);
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .menu-05 .bill {
+        padding: 0 30px;
+        text-align: left;
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    .menu-05 .bill-form {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+
+    button.agency-bill .fa-users {
+        padding: 0;
+        text-align: center;
+        left: 12%;
+        position: relative;
+        margin-right: 17px;
+    }
+
+    button.agency-bill {
+        position: relative;
+        height: 55px;
+    }
+
+    button.private-bill {
+        position: relative;
+        height: 55px;
+    }
+
+    button.private-bill .fa-user {
+        padding: 0;
+        text-align: center;
+        left: 12%;
+        position: relative;
+        margin-right: 17px;
+    }
+
+    .form-group {
+        padding: 0 30px;
+    }
+
+    .menu-05 .credit-card {
+        margin-bottom: 20px;
+        padding: 0 30px;
+    }
+
+    .radio-pay .paycard {
+        white-space: nowrap;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: -6px
+    }
+
+    .checkradio {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        height: 14px;
+        width: 14px;
+        background-color: white;
+        border-radius: 50%;
+        border: 1px solid #0FB7B6;
+    }
+
+    .card-img .master-card img {
+        width: 30px;
+        height: 25px;
+    }
+
+    .card-img .american-card img {
+        width: 30px;
+        height: 25px;
+    }
+
+    .card-img .visa-card img {
+        width: 30px;
+        height: 25px;
+    }
+
+    .form-card {
+        display: inline-block;
+        background-color: rgba(240, 244, 245, 1);
+        padding: 30px;
+        margin-bottom: 55px;
+        margin: 0 20px 30px;
+    }
+
+    .form-card .col-md-card {
+        font-size: 10px;
+        font-family: Poppins;
+    }
+
+    .form-group .col-md label.dropdown-cel:before {
+        left: 47px;
+        top: 38px;
+    }
+
+    .form-card .col-md-card-center .cvc-label {
+        display: none;
+    }
+
+    .col-md-card-center .right-form .cvc {
+        margin-top: 16px;
+        width: 43%;
+    }
+
+    .col-md-card-center .left-form .data-scandeza {
+        width: 100%;
+    }
+
+    .col-md-card-center .left-form {
+        font-size: 10px;
+        font-family: Poppins;
+    }
+
+    .menu-05 .radio-pay.bottom {
+        padding: 0 30px;
+        margin-bottom: 15px
+    }
+
+    .paycard .checkradio:after {
+        top: 2px;
+        left: 2px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .checkmark {
+        top: 7px;
+        height: 16px;
+        width: 16px;
+    }
+
+    label.container {
+        font-size: 14px;
+    }
+
+    .container .checkmark:after {
+        left: 5px;
+        top: 1px;
+    }
+
+    .confirm-bill button.conferma {
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 90px;
+    }
+
+    .confirm-bill {
+        padding: 0 30px;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .footer-menu .list .logo img {
+        width: 84px;
+        margin-bottom: 18px;
+    }
+
+    .footer-menu .list {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu .list:last-child {
+        margin: 0;
+    }
+
+    .footer-menu .list .row-list {
+        display: inline-block;
+    }
+
+    .footer-menu .list .name {
+        font-size: 14px;
+        padding-bottom: 11px;
+    }
+
+    .footer-menu .list .row-list li a {
+        font-size: 12px;
+    }
+
+    .created-name p {
+        margin-bottom: 39px;
+    }
+
+    .created-name {
+        margin-bottom: 40px;
+    }
+
+    .dropdown-content {
+        display: block;
+    }
+
+    .upper-menu .right-text {
+        display: none;
+    }
+
+    .dropdown-content .italia-img img {
+        padding-top: 16px;
+    }
+}
+
+
+@media all and (max-width: 376px) {
+    i.fa.fa-arrow-circle-o-left {
+        margin-left: 61px;
+        margin-top: 25px;
+    }    
+}
+
+@media all and (max-width: 320px) {
+    i.fa.fa-arrow-circle-o-left {
+        margin-left: 47px;
+        margin-top: 25px;
+    }    
+}
+
+
+
+   
+
